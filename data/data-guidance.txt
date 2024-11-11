@@ -1,0 +1,68 @@
+School funding statistics
+2021-22 Financial year
+
+Description
+
+— Data files for the 2021-22 edition of School Funding Statistics.
+
+Coverage
+
+— Schools in England, for pupils aged 5-16.
+
+File formats and conventions
+
+— Files are csv format.
+
+Data files
+
+Percentage of mainstream schools receiving funding through the additional pupil-led factors in 2021-22
+
+Filename: 20220127_fig2.csv
+Geographic levels: National
+Time period: 2021-22
+Content summary: This data shows the percentage of mainstream schools receiving funding through each of the additional pupil-led factors in 2021-22. These factors are: English as an additional language, free school meals (FSM), FSM ever 6, income deprivation affecting children index (IDACI), looked-after children, mobility and low prior attainment
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                      |  Variable description
+---------------------------------  |  ---------------------------------
+english_as_an_additional_language  |  English as an additional language
+free_school_meals                  |  Free school meals
+free_school_meals_ever_6           |  Free school meals ever 6
+idaci                              |  IDACI
+looked-after_children              |  Looked-after children
+low_prior_attainment               |  Low prior attainment
+mobility                           |  Mobility
+
+
+Revenue funding to state-funded schools in England for pupils aged 5-16, in cash and real terms, 2010-11 to 2022-23
+
+Filename: 20220127_tab1_2022.csv
+Geographic levels: National
+Time period: 2010-11 to 2022-23
+Content summary: This data file contains time series data, running from 2010-11 to 2022-23, of revenue funding to state-funded schools in England for pupils aged 5-16. Data is in both cash terms and real terms (2021-22 prices). The data file also contains the GDP deflator index figures used to construct the real terms series.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                                                      |  Variable description
+-----------------------------------------------------------------  |  --------------------------------------------------------------------
+Annual_growth_in_funding_202122terms_%                             |  School funding, 2021-22 terms, annual growth in funding, %
+Annual_growth_in_funding_cashterms_%                               |  School funding, cash terms, annual growth in funding, %
+Annual_growth_in_per_pupil_funding_202122terms_%                   |  Per pupil funding, 2021-22 terms, annual growth in funding, %
+Annual_growth_in_per_pupil_funding_cashterms_%                     |  Per pupil funding, cash terms, annual growth in funding, %
+Cumulative_growth_in_funding_since_201011_202122terms_%            |  School funding, 2021-22 terms, cumulative growth since 2010-11, %
+Cumulative_growth_in_funding_since_201516_202122terms_%            |  School funding, 2021-22 terms, cumulative growth since 2015-16, %
+Cumulative_growth_in_per_pupil_funding_since_201011_202122terms_%  |  Per pupil funding, 2021-22 terms, cumulative growth since 2010-11, %
+Cumulative_growth_in_per_pupil_funding_since_201516_202122terms_%  |  Per pupil funding, 2021-22 terms, cumulative growth since 2015-16, %
+GDP_deflator_index                                                 |  GDP deflator index
+Per_pupil_funding_202122terms_£                                    |  Per pupil funding, 2021-22 terms, £
+Per_pupil_funding_cashterms_£                                      |  Per pupil funding, cash terms, £
+Pupil_number_FTE                                                   |  Pupil number, FTE
+School_funding_202122terms_£m                                      |  School funding, 2021-22 terms, £m
+School_funding_cashterms_£m                                        |  School funding, cash terms, £m
+
+Footnotes:
+
+1. Funding covers the following grants: Dedicated Schools Grant (excluding early years and post-16 high-needs funding); grants outside the DSG to the City of London, Isles of Scilly and City Technology Colleges; pre-16 high-needs funding in non-maintained special schools, special and alternative provision free schools; pupil premium (all pupil ages); schools supplementary grant (reception to year 11); supplementary free school meals grant; teachers' pay grant (reception to year 11); teachers' pension employer contribution grant (TPECG) (reception to year 11).
+2. State-funded schools means all state-funded providers, including mainstream primary and secondary schools, special schools, alternative provision, pupil referral units and non-maintained special schools.
+3. Funding in 2022-23 is based on a combination of published funding allocations, and the budget settlement agreed at the 2021 Spending Review, and some estimates of small-grant and high needs spending.

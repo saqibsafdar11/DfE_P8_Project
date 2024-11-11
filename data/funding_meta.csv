@@ -1,0 +1,47 @@
+Variable name,Variable description
+academy,Academy?
+allocation_per_pupil,Allocation per Pupil
+basic_entitlement_ks3,Basic Entitlement KS3
+basic_entitlement_ks4,Basic Entitlement KS4
+basic_entitlement_primary,Basic Entitlement Primary
+basic_entitlement_total_funding,Basic Entitlement Total Funding
+coronavirus_recovery_premium_funding,Coronavirus (COVID-19) recovery premium funding
+deprivation_total_funding,Deprivation Total Funding
+eal_total_funding,EAL Total Funding
+exceptional_factors_total_funding,Exceptional Factors Total Funding
+fsm_funding,FSM Funding
+fsm6_funding,FSM6 Funding
+idaci_band_a,IDACI Band A
+idaci_band_b,IDACI Band B
+idaci_band_c,IDACI Band C
+idaci_band_d,IDACI Band D
+idaci_band_e,IDACI Band E
+idaci_band_f,IDACI Band F
+idaci_funding,IDACI Funding
+lac_total_funding,LAC Total Funding
+london_fringe,London Fringe
+lump_sum_total_funding,Lump Sum Total Funding
+mfg_protection_or_capping_scaling,MFG protection (+ve) or capping/scaling (-ve)
+minimum_per_pupil_funding,Minimum per pupil funding
+mobility_total_funding,Mobility Total Funding
+national_non_domestic_rates_funding,National Non Domestic Rates Funding
+notional_sen,Notional SEN
+pe_&_sport_premium,PE & Sport Premium funding
+pe_&_sport_premium_pupils,PE & Sport Premium pupils
+pfi_total_funding,PFI Total Funding
+prior_attainment_total_funding,Prior Attainment Total Funding
+pupil_premium,Pupil Premium funding
+pupil_premium_pupils,Pupil Premium pupils
+School_led_tutoring_funding,School-led tutoring funding
+school_phase,Phase
+school_type,School type
+school_ukprn,UKPRN
+schools_supplementary_grant,Schools Supplementary Grant funding
+sparsity_total_funding,Sparsity Total Funding
+split_site_total_funding,Split Site Total Funding
+total_funding,Total funding
+total_number_of_pupils,Total Number of Pupils (rounded)
+total_schools_block_allocation_(post_mfg),Total Schools Block Allocation (Post MFG)
+total_schools_block_allocation_(pre_mfg),Total Schools Block Allocation (Pre MFG)
+trust,Trust
+universal_infant_free_school_meals_grant,Universal Infant Free School Meals Grant funding
