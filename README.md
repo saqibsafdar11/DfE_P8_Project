@@ -1,4 +1,4 @@
-# Data Analysis Project: Education Equity
+# Developing Education Equity: Analysing Positive Outlier Schools' Performance at Keystage 4 for Disadvantaged Pupils in the UK - 2022/23
 
 ## Project Overview
 This project analyzes the performance of positive outlier schools in the UK (2022/23) in terms of their disadvantaged pupils' educational outcomes at Key Stage 4. The analysis focuses on the correlation between school performance, measured through the Progress 8 and Attainment 8 scores, and the Index of Multiple Deprivation (IMD).
@@ -7,9 +7,11 @@ This project analyzes the performance of positive outlier schools in the UK (202
 The datasets for this project were sourced from the Department for Education (DfE) and the Ministry of Housing, Communities and Local Government (MHCLG). They provide key metrics on school performance and socioeconomic data for the academic year 2022-23.
 
 ### Objectives
-- Identify schools that perform well above the national average for disadvantaged pupils.
-- Analyze the relationship between school performance and socioeconomic status.
-- Explore factors influencing positive outliers in school performance.
+- 1. Evaluate National Disparities in Educational Performance Between Advantaged and Disadvantaged Pupils**
+- 2. Identify and analyse outlier schools nationally for progress 8 scores for disadvantaged pupils and investigate contributing factors.**
+- 3. Identify and evaluate the top performing multi-academy trusts in supporting disadvantaged pupils.**
+
+This objective will conduct statistical analysis to identify top performing multi-academy trusts and their success in closing the disadvantage gap. Hypothesis testing and regression analysis will be conducted to determine the level of impact of potential factors
 
 ## Project Structure
 ```
@@ -19,16 +21,6 @@ The datasets for this project were sourced from the Department for Education (Df
 /.gitignore                          # Files to ignore in the GitHub repository
 ```
 
-## Installation
-To run the project, you need to have Python 3.x installed along with the required libraries. You can install the necessary dependencies using `pip`.
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-1. Clone the repository to your local machine.
-2. Run the Jupyter notebook (`P4DS_A2_Data_Analysis_Project.ipynb`) to start analyzing the data.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
