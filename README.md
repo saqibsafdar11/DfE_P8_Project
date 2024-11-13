@@ -452,16 +452,16 @@ This diagram compares deprivation index with progress 8 performance of disadvant
 
 ### Achievements
 
-- **Data Integration**: Successfully merged and cleaned datasets from the DfE and MHCLG, creating a reliable dataset for analysis.
-- **Gap Analysis**: Confirmed significant educational gaps between disadvantaged and advantaged pupils across multiple performance metrics.
-- **Outlier Identification**: Identified and analyzed positive outlier schools and top-performing MATs that effectively support disadvantaged pupils.
-- **Strategic Insights**: Demonstrated that certain schools and trusts can close the disadvantage gap and achieve high performance despite socioeconomic challenges.
+- I successfully managed to create a reliable data set by merging data from the he Department for Education DfE based on their Unique Reference Number URN code of schools and Multi-Academy Trusts MATs, and then linking a data from Ministry of Housing, Communities & Local Government to get the Index of Multiple Deprivation on postcode. 
+- The excpected gap between disadvantaged and advantaged pupils was explored. I confirmed that the gap exists in all academic variables measured which includes progress 8 (0.6), attainment 8 (11.6), Maths (0.55), English (0.58) and strong passes in both subjects (21.9 %). 
+- Outlier schools in progress 8 were then identified, categorised and analysed based on the groups of students they were outlier schools in i.e. 
+    - a) disadvantaged pupils only, 
+    - b) non-disadvantaged pupils only 
+    - c) both
 
-### Limitations
+    It was found expected variables such as funding, didnt have a significant correlation with disadvantage students' results, not just in progress 8, but attainment, English and Maths.  The Index of Deprivation however, showed an expected impact with more deprivation leading to a drop in performance for disadvantaged students. 
 
-- **Regression Analysis**: Further statistical modeling could provide deeper insights into causation.
-- **Temporal Factors**: The impact of the time schools have been part of a MAT was not fully explored.
-- **Qualitative Factors**: Cultural influences and qualitative data were beyond the scope of this analysis.
+- Finally, top ranking MATS for progress 8 disadvantaged were identified and analysed. It was found the best MATs in supporting disadvantaged pupuls, close the gap and are able to overcome deprivation barriers with remarkable success. All the data analysis addressed and answered the objectives mentioned at the beginning of the notebook. 
 
 ### Future Work
 
