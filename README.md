@@ -300,11 +300,11 @@ There are significant gaps in all measured categories between advantaged and dis
 
 - **Progress 8 and Attainment 8 Box Plots**:
 
-  ![Progress 8 and Attainment 8 Box Plots](images/progress8_attainment8_boxplot.png)
+  ![Progress 8 and Attainment 8 Box Plots](images/progress8_attainment8_boxplot.png) 
 
 - **English and Maths Progress 8 Scores Box Plots**:
 
-  ![English and Maths Scores Box Plots](images/maths_english_scores_boxplot.png)
+  ![English and Maths Scores Box Plots](images/obj1_progress8_attainment8_boxplot.png)
 
 #### Objective 2: Identify and Analyze Outlier Schools
 
