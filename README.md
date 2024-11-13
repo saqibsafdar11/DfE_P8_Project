@@ -1,17 +1,17 @@
-# Developing Education Equity: Analysing Positive Outlier Schools' Performance at Keystage 4 for Disadvantaged Pupils in the UK - 2022/23
+# Developing Education Equity: Analysing Positive Outlier Schools' Performance at Key Stage 4 for Disadvantaged Pupils in the UK - 2022/23
 
 ## Project Overview
-This project analyzes the performance of positive outlier schools in the UK (2022/23) in terms of their disadvantaged pupils' educational outcomes at Key Stage 4. The analysis focuses on the correlation between school performance, measured through the Progress 8 and Attainment 8 scores, and the Index of Multiple Deprivation (IMD).
+This project analyzes the performance of positive outlier schools in the UK (2022/23) regarding their disadvantaged pupils' educational outcomes at Key Stage 4. The analysis focuses on the correlation between school performance, measured through the Progress 8 and Attainment 8 scores, and the Index of Multiple Deprivation (IMD).
 
 ### Dataset
 The datasets for this project were sourced from the Department for Education (DfE) and the Ministry of Housing, Communities and Local Government (MHCLG). They provide key metrics on school performance and socioeconomic data for the academic year 2022-23.
 
 ### Objectives
-- 1. Evaluate National Disparities in Educational Performance Between Advantaged and Disadvantaged Pupils**
-- 2. Identify and analyse outlier schools nationally for progress 8 scores for disadvantaged pupils and investigate contributing factors.**
-- 3. Identify and evaluate the top performing multi-academy trusts in supporting disadvantaged pupils.**
+1. **Evaluate national disparities in educational performance between advantaged and disadvantaged pupils.**
+2. **Identify and analyze outlier schools nationally for Progress 8 scores for disadvantaged pupils and investigate contributing factors.**
+3. **Identify and evaluate the top-performing multi-academy trusts in supporting disadvantaged pupils.**
 
-This objective will conduct statistical analysis to identify top performing multi-academy trusts and their success in closing the disadvantage gap. Hypothesis testing and regression analysis will be conducted to determine the level of impact of potential factors
+This objective will conduct statistical analysis to identify top-performing multi-academy trusts and their success in closing the disadvantage gap. Hypothesis testing and regression analysis will be conducted to determine the level of impact of potential factors.
 
 ## Project Structure
 ```
@@ -365,42 +365,51 @@ Small postitive correlation of progress 8 disadvantaged with percentage of disad
 Index of multiple deprivation - has a negative correlation, suggesting lower values of the index ie. deprivation decreased, progress9 disadvantaged pupils will decline slightly, suggesting disadvantaged pupils' performance is expected to decrease when there is more deprivation.
 Visualisation
 
-Heatmap provides insights into outlier schools in areas such as progress 8 score, funding, deprivation index etc.
+## Visualizations
 
-Heatmap of Outlier Schools
+### Heatmap of Outlier Schools
+Heatmap provides insights into outlier schools in areas such as Progress 8 score, funding, deprivation index, etc.
 
-Summary Statistics for 'Index of Multiple Deprivation Decile' by 'Outlier_Category'
+![Heatmap of Outlier Schools](images/obj2_heatmap_of_outlier_schools.png)
 
-Outlier Category	Median	Q1 (25%)	Q3 (75%)	IQR	Min	Max	Range
-Both	7.0	4.5	8.5	4.0	1.0	10.0	9.0
-None	6.0	3.0	8.0	5.0	1.0	10.0	9.0
-Only Disadvantaged	4.5	3.0	7.0	4.0	1.0	9.0	8.0
-Only Non-Disadvantaged	3.0	2.0	4.3	2.3	1.0	8.0	7.0
-Outlier schools only in progres 8 for only non-disadvantaged students, stand out as having a significanlty lower median of deprivation index, suggesting non-disadvantaged students tend to come from more deprived areas in such schools. This could be due to more focused support given they would stand out and be top of their school.
+### Summary Statistics for 'Index of Multiple Deprivation Decile' by 'Outlier_Category'
 
-![Pipeline.drawio.png](images/Obj2_Deprivation_by_Outlier_Category.png)
+| Outlier Category       | Median | Q1 (25%) | Q3 (75%) | IQR  | Min | Max | Range |
+|------------------------|--------|----------|----------|------|-----|-----|-------|
+| Both                   | 7.0    | 4.5      | 8.5      | 4.0  | 1.0 | 10.0 | 9.0   |
+| None                   | 6.0    | 3.0      | 8.0      | 5.0  | 1.0 | 10.0 | 9.0   |
+| Only Disadvantaged     | 4.5    | 3.0      | 7.0      | 4.0  | 1.0 | 9.0  | 8.0   |
+| Only Non-Disadvantaged | 3.0    | 2.0      | 4.3      | 2.3  | 1.0 | 8.0  | 7.0   |
 
-Summary Statistics for 'Progress8' by 'Outlier_Category'
+Outlier schools only in Progress 8 for non-disadvantaged students have a significantly lower median of deprivation index, suggesting non-disadvantaged students tend to come from more deprived areas in such schools.
 
-Outlier_Category	Median	Q1 (25%)	Q3 (75%)	IQR	Min	Max	Range
-Both	1.450	1.1950	2.140	0.945	0.81	2.37	1.56
-None	-0.040	-0.3600	0.290	0.650	-2.16	1.83	3.99
-Only_Disadv	0.955	0.8500	1.070	0.220	0.25	1.38	1.13
-Only_NonDisadv	1.085	0.9375	1.125	0.188	0.61	1.49	0.88
-Non positive outlier schools are are expected nearing 0; the minor difference may be due to negative outlier schools being included in that group. Schools which are outliers in both categories are much better performing with highest median and maximum score.
+![Deprivation by Outlier Category](images/obj2_deprivation_by_outlier_category.png)
 
-![Pipeline.drawio.png](images/Obj2_Progress8 by Outlier Category.png)
+### Summary Statistics for 'Progress 8' by 'Outlier_Category'
 
-Summary Statistics for 'Progress8_Disadvantaged_2022' by 'Outlier_Category':
+| Outlier Category | Median  | Q1 (25%)  | Q3 (75%)  | IQR    | Min    | Max   | Range |
+|------------------|---------|-----------|-----------|--------|--------|-------|-------|
+| Both             | 1.450   | 1.1950    | 2.140     | 0.945  | 0.81   | 2.37  | 1.56  |
+| None             | -0.040  | -0.3600   | 0.290     | 0.650  | -2.16  | 1.83  | 3.99  |
+| Only Disadvantaged      | 0.955   | 0.8500    | 1.070     | 0.220  | 0.25   | 1.38  | 1.13  |
+| Only Non-Disadvantaged  | 1.085   | 0.9375    | 1.125     | 0.188  | 0.61   | 1.49  | 0.88  |
 
-Outlier_Category	Median	Q1 (25%)	Q3 (75%)	IQR	Min	Max	Range
-Both	1.40	1.19	1.59	0.40	1.01	1.96	0.95
-None	-0.50	-0.87	-0.14	0.73	-2.43	0.99	3.42
-Only_Disadv	1.09	1.07	1.13	0.06	1.01	1.21	0.20
-Only_NonDisadv	0.60	0.51	0.78	0.27	0.22	0.99	0.77
-Similar to before, disadvantaged pupils do better in schools which are outliers in both categories. Only disadvataged outlier schools have a very small IQR, suggesting an excellent level of consistency and low variability.
+Non-positive outlier schools are expected near zero; the minor difference may be due to negative outlier schools being included in that group. Schools that are outliers in both categories perform much better with the highest median and maximum score.
 
-![Pipeline.drawio.png](images/Obj2_Progress8 of Disadvantaged Pupils by Outlier Category.png)
+![Progress 8 by Outlier Category](images/obj2_progress8_by_outlier_category.png)
+
+### Summary Statistics for 'Progress 8 Disadvantaged 2022' by 'Outlier_Category'
+
+| Outlier Category | Median | Q1 (25%) | Q3 (75%) | IQR  | Min    | Max   | Range |
+|------------------|--------|----------|----------|------|--------|-------|-------|
+| Both             | 1.40   | 1.19     | 1.59     | 0.40 | 1.01   | 1.96  | 0.95  |
+| None             | -0.50  | -0.87    | -0.14    | 0.73 | -2.43  | 0.99  | 3.42  |
+| Only Disadvantaged      | 1.09   | 1.07     | 1.13     | 0.06 | 1.01   | 1.21  | 0.20  |
+| Only Non-Disadvantaged  | 0.60   | 0.51     | 0.78     | 0.27 | 0.22   | 0.99  | 0.77  |
+
+Similar to before, disadvantaged pupils perform better in schools that are outliers in both categories. Only disadvantaged outlier schools have a very small IQR, suggesting excellent consistency and low variability.
+
+![Progress 8 of Disadvantaged Pupils by Outlier Category](images/obj2_progress8_of_disadvantaged_pupils_by_outlier_category.png)
 
 Objective 3 Identify and evaluate the top performing multi-academy trusts in supporting disadvantaged pupils
 Explanation of Results
