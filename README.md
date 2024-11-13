@@ -13,18 +13,6 @@ The datasets for this project were sourced from the Department for Education (Df
 
 This objective will conduct statistical analysis to identify top-performing multi-academy trusts and their success in closing the disadvantage gap. Hypothesis testing and regression analysis will be conducted to determine the level of impact of potential factors.
 
-## Project Structure
-```
-/P4DS_A2_Data_Analysis_Project.ipynb  # The main Jupyter notebook
-/requirements.txt                    # List of dependencies
-/LICENSE                             # Project License (MIT)
-/.gitignore                          # Files to ignore in the GitHub repository
-```
-
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Project Plan
 ### 1.1 Sources of the dataset
 a) Department for Education (DfE)
@@ -77,16 +65,16 @@ Socioeconomic factors: The relationship between school performance and socioecon
 
 Impact of MAT: Group level management, collaboration and performance, particularly on outlier schools, can be explored to determine if their is a correlation between school performance and the type of MAT they belong to.
 
-## 2.2 Specific Objective(s)
-1. Evaluate National Disparities in Educational Performance Between Advantaged and Disadvantaged Pupils
+### 2.2 Specific Objective(s)
+### 1. Evaluate National Disparities in Educational Performance Between Advantaged and Disadvantaged Pupils
 
 Using comprehensive datasets from the Department for Education (DfE) and the Ministry of Housing, Communities, and Local Government (MHCLG), conduct a detailed national-level analysis of the performance gap in key metrics, including Progress 8, Attainment 8, and English and Mathematics scores. This objective will involve merging, cleaning and validating data, before statistical analysis is conducted to determine the level of gap between disadvantaged and advantaged pupils
 
-2. Identify and analyse outlier schools nationally for progress 8 scores for disadvantaged pupils and investigate contributing factors.
+### 2. Identify and analyse outlier schools nationally for progress 8 scores for disadvantaged pupils and investigate contributing factors.
 
 This objective will conduct more in depth statistical analysis to identify positive outlier schools with progress-8 scores for disadvantaged pupils. Further analysis on quantitative and categorical factors will be conducted to determine the influence of socio-economic indicators, such as the Index of Multiple Deprivation and demographics of the school.
 
-3. Identify and evaluate the top performing multi-academy trusts in supporting disadvantaged pupils.
+### 3. Identify and evaluate the top performing multi-academy trusts in supporting disadvantaged pupils.
 
 This objective will conduct statistical analysis to identify top performing multi-academy trusts and their success in closing the disadvantage gap. Hypothesis testing and regression analysis will be conducted to determine the level of impact of potential factors.
 
@@ -96,7 +84,7 @@ Key Components: Descriptions, Purpose and Challenges
 
 The following data sets will be downloaded and used from the DfE website.
 
-1. DfE data set 1: KS4 school performance 2022-23
+### 1. DfE data set 1: KS4 school performance 2022-23
 
 Purpose: This provides information on the academic performance of each school and provides categories relating to advantage and disadvantage pupils in progress 8, attainment-8 and in EBACC subjects English and Mathematics. The description of each field is given below.
 
@@ -117,7 +105,7 @@ Key fields used for analysis:
   • Progress 8 score in English for disadvantaged students
   • Progress 8 score in Maths for non-disadvantaged students
   • Progress 8 score in English for non-disadvantaged students
-2. Data set 2: School information - provides information on the demographics of each school.
+### 2. Data set 2: School information - provides information on the demographics of each school.
 
 Purpose: The purpose of this data set it to determine school demographics such as gender, Ofsted rating etc, and other such categorical columns which can be used to determine potential impact on students' progress.
 
@@ -130,7 +118,7 @@ Key fields used in analysis:
     - Minor Group - More detailed classification of school type
     - Gender - Whether the school is mixed, boys only or girls only
     - Ofsted Rating - Latest Ofsted inspection rating for the school
-3. Data set 3: School funding
+### 3. Data set 3: School funding
 
 Purpose: Provides information on the various types of funding for each school.
 
@@ -145,7 +133,7 @@ Key fields used in analysis:
     - Pupil Premium Pupils: Number of students who qualify for pupil premium funding
     - School-led Tutoring Funding: Money given to schools to provide extra tutoring
     - Total Funding: The total amount of funding received by the school
-4. DfE data set 4: Multi Academy Trust (MAT) performance
+### 4. DfE data set 4: Multi Academy Trust (MAT) performance
 
 Purpose: provides information of performance for each Multi-Academy Trust (MAT)
 
@@ -159,7 +147,8 @@ Key fields used from MAT performance data:
     - Average Attainment 8 Score: Average attainment score across 8 subjects for the trust
     - Average Progress 8 Score: Average progress score showing value added by trust
     - Time Period: Academic year the data is from
-5. Data set 5: Academies membership
+
+### 5. Data set 5: Academies membership
 
 Purpose: provides information on which MAT each school belongs to allowing external data such as to be linked to schools through their postcode and then to URN.
 
@@ -171,7 +160,8 @@ Key fields used in analysis:
     - Establishment Name - Official name of the school
     - Group Name - Name of the school group/trust
     - Postcode - Postcode of the school
-6. MHCLG Data - Index of Multiple Deprivation (IMD)
+    
+### 6. MHCLG Data - Index of Multiple Deprivation (IMD)
 
 Purpose: In addition to the five data sets from the DfE, the deprivation index for each area in the UK will be downloaded from the Ministry of Housing, Communities and Local Government (MHCLG) website and merged with the school information data set using the school postcode. This allows for a more detailed analysis of the relationship between school performance and socioeconomic factors which may affect the performance of disadvantaged students, as compared to say relying solely on funding data or percentage of disadvantaged pupils.
 
@@ -179,17 +169,17 @@ Key columns used for analysis:
 
     - Postcode                                   
     - Index of Multiple Deprivation Decile    
-7. Metadata
+### 7. Metadata
 
 Purpose: To identify the appropriate columns for analysis from the DfE data sets, the metadata will be used. Each of the DfE data sets lists above will have a corresponding meta-data file.
 
-8. Classes
+### 8. Classes
 
 Purpose: To optimise the processes above, functions will be organised in classes
 
 Challenges: Key challenges will be selecting and identify the appropriate columns from the DfE data sets as the data set a very large number of fields. The meta data file will be needed to be used to identify the code and description for each field. The code used would then need to be re-written in most cases so it is clear to the non-technical reader what the field stands for, while retaining a format suitable for a data column in python. Another challenge will be ensuring data types are in the correct format for quantitative analysis. Where needed, feature engineering would need to be employed for new fields which may be required such as pupil premium funding per pupil. Another challenge will be in connecting the index of multiple deprivation IMD with each school, as the MHCLG is independent to the DfE, and will not include the school URN which is what will be used to combined the DfE data.
 
-Pipeline and Workflow
+### Pipeline and Workflow
 
 The pipline starts by setting up necessary functions and classes for data loading, wrangling and cleaning.
 
@@ -327,13 +317,13 @@ Disadvantaged	-0.49	-0.87	-0.12	0.75	-2.43	1.96	4.39
 Non-Disadvantaged	0.13	-0.16	0.45	0.61	-2.33	2.37	4.70
 The histrogram showes an approximately normal distribution, as expected, since the results are standardised by exam boards. Most sudents would therfore have a progress 8 score of 0, with 68% of students falling within +1 or -1 standard deviations from the mean and 95% falling within +2 or -2 standard deviations from the mean.
 
-Obj1_progress8_distribution_nationally.png
+![Obj1_progress8_distribution_nationally.png](images/Obj1_progress8_distribution_nationally.png)
 
 Progess 8 and Attainment 8 Box Plots
 
 Both box plots show disadvantaged students under performing. For progress 8, disadvatanged students have a negative progress 8 of -0.49 median score while advtanged students have a positive median score of 0.13, suggesting significant disparity. Both have a similar range and interquratile range with a number of outliers. For attainment 8, the gap and distribution is as expected given the results.
 
-progress8_attainment8_boxplot.png
+![progress8_attainment8_boxplot.png](images/progress8_attainment8_boxplot.png)
 
 Percentage English and Mathematics Five Plus Box Plots
 
@@ -346,7 +336,7 @@ Non-Disadvantaged	0.11	-0.20	0.44	0.64	-2.31	2.33	4.64
 
 Both Maths and English have a negative median of -0.47 and -0.50 which is very concerning, given this is a national pattern, showing progress made by students between keystage 2 and keystage 4. English has a wider interquartile range for disadvantaged students, suggesting more variability. In both subjects, there is a greater difference between the minimum values, then between the maximum values, suggesting the disadvatnaged students will significiantly underperform than over perform.
 
-![Pipeline.drawio.png](images/maths_english_scores_boxplot.png)
+![maths_english_scores_boxplot.png](images/maths_english_scores_boxplot.png)
 
 Objective 2 Identify and Analyse Outlier Schools in Positive Progress 8 of Disadavantaged Pupils
 Explanation of Results
@@ -370,7 +360,7 @@ Visualisation
 ### Heatmap of Outlier Schools
 Heatmap provides insights into outlier schools in areas such as Progress 8 score, funding, deprivation index, etc.
 
-![Heatmap of Outlier Schools](images/obj2_heatmap_of_outlier_schools.png)
+![obj2_heatmap_of_outlier_schools.png](images/obj2_heatmap_of_outlier_schools.png)
 
 ### Summary Statistics for 'Index of Multiple Deprivation Decile' by 'Outlier_Category'
 
@@ -383,7 +373,7 @@ Heatmap provides insights into outlier schools in areas such as Progress 8 score
 
 Outlier schools only in Progress 8 for non-disadvantaged students have a significantly lower median of deprivation index, suggesting non-disadvantaged students tend to come from more deprived areas in such schools.
 
-![Deprivation by Outlier Category](images/obj2_deprivation_by_outlier_category.png)
+![obj2_deprivation_by_outlier_category.png](images/obj2_deprivation_by_outlier_category.png)
 
 ### Summary Statistics for 'Progress 8' by 'Outlier_Category'
 
@@ -396,7 +386,7 @@ Outlier schools only in Progress 8 for non-disadvantaged students have a signifi
 
 Non-positive outlier schools are expected near zero; the minor difference may be due to negative outlier schools being included in that group. Schools that are outliers in both categories perform much better with the highest median and maximum score.
 
-![Progress 8 by Outlier Category](images/obj2_progress8_by_outlier_category.png)
+![obj2_progress8_by_outlier_category.png](images/obj2_progress8_by_outlier_category.png)
 
 ### Summary Statistics for 'Progress 8 Disadvantaged 2022' by 'Outlier_Category'
 
@@ -409,7 +399,7 @@ Non-positive outlier schools are expected near zero; the minor difference may be
 
 Similar to before, disadvantaged pupils perform better in schools that are outliers in both categories. Only disadvantaged outlier schools have a very small IQR, suggesting excellent consistency and low variability.
 
-![Progress 8 of Disadvantaged Pupils by Outlier Category](images/obj2_progress8_of_disadvantaged_pupils_by_outlier_category.png)
+![obj2_progress8_of_disadvantaged_pupils_by_outlier_category.png](images/obj2_progress8_of_disadvantaged_pupils_by_outlier_category.png)
 
 Objective 3 Identify and evaluate the top performing multi-academy trusts in supporting disadvantaged pupils
 Explanation of Results
@@ -439,7 +429,7 @@ Identify Top Performing MATs based on Progress 8 Disadvantaged Students
 
 Some MATS, although top performing for progress 8 overall, may not be top performing for disadvantaged pupils. e.g. "tar Academies and Chiltern Learning Trust have significantly higher Progress 8 scores for disadvantaged pupil, showing their strategies of support are efficient. United Learning Trust and Russell Education suggest they are making less progress with disadvantaged students.
 
-![Pipeline.drawio.png](imagesObj3_Progress8 disadvatanged top 10 MATs.png)
+![imagesObj3_Progress8 disadvatanged top 10 MATs.png](images/Obj3_Progress8 disadvatanged top 10 MATs.png)
 
 Correlation Matrix for Top 10 MATS
 
@@ -451,7 +441,7 @@ Progreess of Disadavantaged vs Advantaged Pupils
 
 Progress 8 Gap - smaller gap between advantaged and disadvantaged poupils indicates better equity - Star Academies has the smallest gap of 0.264 followed by Chiltern Learning Trust of 0.408; While Education and Leadership Trust and Harris Federation have gaps of 0.733 and 0.623 respectively.
 
-![Pipeline.drawio.png](images/Obj3_Progress8 disadv vs advantaged in top 10 MATs.png)
+![Obj3_Progress8 disadv vs advantaged in top 10 MATs.png](images/Obj3_Progress8 disadv vs advantaged in top 10 MATs.png)
 
 Deprivation Index vs Progress 8
 
@@ -463,7 +453,7 @@ Deprivation Index vs Progress 8 for Disdavantaged Pupils
 
 This diagram compares deprivation index with progress 8 performance of disadvantaged pupils. Star Academies stands out again with the highest progress 8 for disadvantaged pupils while also facing the most social economic deprivation. With a negative progress 8 and higher deprivation index, Russell Education and United Learning Trusts suggest disadvantaged pupils are making less than expected progress.
 
-Obj3_Progress8 Disadv vs Deprivation Index for Top 10 MATs.png
+![images/Obj3_Progress8 disadv vs advantaged in top 10 MATs.png](images/Obj3_Progress8 disadv vs advantaged in top 10 MATs.png)
 
 Conclusion and presentation
 Achievements
