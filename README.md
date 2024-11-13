@@ -478,6 +478,7 @@ Time in Trust Also I could further filter schools which may be special-measure a
 Culture Certain things which are qualitative such as culture, may have a large influence on an organisations health and success. This can better be determined by actual school visits.
 
 Future Work
+
 Outlier Trusts - Strategy and Framework The outlier Trusts, should be further explored, particulary those that have managed to close the disadvantage gap.
 
 Funding Allocation and Usage Further investgations can also be done on effective use of funding. The Ofsted report or further details from individual schools/MATs may be needed get details of strategy policy used.
@@ -490,10 +491,9 @@ Geospational Analysis Conduct geospational analysis of MATS and evaluate schools
 
 Text Analysis Another suggestion would be to do text analysis of Ofsted reports and link it to the Ofsted grade and historical trends of the school.
 
-Video Presentation
-Please submit a screen-capture video with your voiceover, providing a concise explanation of your project's design, key findings, successful aspects, and any challenges encountered. The duration of the video should be between 5 and 10 minutes in MP4 format.
 
-References
+### References
+
 [1] Department for Education. (n.d.). Explore education statistics: Data tables. Retrieved November 1, 2024, from https://explore-education-statistics.service.gov.uk/data-tables
 
 [2] Department for Education. (n.d.). Compare the performance of schools and colleges in England. Retrieved November 10, 2024, from https://www.gov.uk/school-performance-tables
