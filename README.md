@@ -407,6 +407,8 @@ Outlier schools for Progress 8 were identified and categorized:
 
   ![Deprivation Index vs. Progress 8 Disadvantaged](images/Obj3_Progress8_disadv_vs_deprivation_index_top_10_MATs.png)
 
+  ![Progress 8 Disadvantaged vs Deprivation Index for Top 10 MATs](images/Obj3_Progress8_disadv_vs_deprivation_index_top_10_MATs.png)
+
 ## Conclusion and Presentation
 
 ### Achievements
