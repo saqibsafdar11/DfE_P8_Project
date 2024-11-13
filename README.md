@@ -275,16 +275,22 @@ There are significant gaps in all measured categories between advantaged and dis
   - **Gap**: 11.61
   - **Analysis**: The gap suggests approximately 1.45 GCSE grades lower per subject for disadvantaged students (11.61 ÷ 8 ≈ 1.45).
 
+  Analysis: The attainment 8 gap of 11.6 points between disadvantaged and advantaged pupils nationally, suggest approximately 1.45 GCSE grades lower per subject for disadvantaged stidents (11.61/8 = 1.45125 - as each subject is given a point based on the GCSE grade e.g. grade 9 = 9 points).
+
 - **Progress 8 Gap**:
   - *Disadvantaged*: -0.47
   - *Non-Disadvantaged*: 0.13
   - **Gap**: 0.60
   - **Analysis**: Disadvantaged pupils make 0.6 grades less progress across eight subjects between Key Stage 2 and Key Stage 4.
 
+  Analysis: Progress 8 gap of 0.60 that disadvantaged pupils are making 0.6 grades less progress across 8 subjects between keystage 2 and keystage 4 nationally. This would amount to 0.075 grade point less in each of the 8 subjects (0.60/8=0.0.075)
+
 - **Subject-Specific Gaps**:
   - **Maths Gap**: 0.55
   - **English Gap**: 0.58
   - **Analysis**: Disadvantaged students underperform by approximately 0.55 grades in Maths and 0.58 grades in English.
+
+  Analysis: Maths gap of 0.55 and English gap of 0.58 suggest, nationally, disadvanted students are underperforming or making 0.55 grade less progress in maths and 0.58 less progress in English, between keystage 2 and keystage 4 nationally.
 
 - **Percentage 9-5 Gap in English and Maths**:
   - *Disadvantaged*: 28.09%
@@ -292,17 +298,25 @@ There are significant gaps in all measured categories between advantaged and dis
   - **Gap**: 21.92%
   - **Analysis**: A significant gap indicates the need for targeted interventions.
 
+  Analysis: Signficant gap of 21.92 percentage points nationally between disadvatanged and advantaged students achieving grade 5 or above in English and Maths, suggests this needs to be addressed.
+
 **Visualizations**:
 
 - **Progress 8 Score Distribution**:
+
+The histrogram showes an approximately normal distribution, as expected, since the results are standardised by exam boards. Most sudents would therfore have a progress 8 score of 0, with 68% of students falling within +1 or -1 standard deviations from the mean and 95% falling within +2 or -2 standard deviations from the mean.
 
   ![Progress 8 Distribution](images/Obj1_progress8_distribution_nationally.png)
 
 - **Progress 8 and Attainment 8 Box Plots**:
 
+Both box plots show disadvantaged students under performing. For progress 8, disadvatanged students have a negative progress 8 of -0.49 median score while advtanged students have a positive median score of 0.13, suggesting significant disparity. Both have a similar range and interquratile range with a number of outliers. For attainment 8, the gap and distribution is as expected given the results.
+
   ![Progress 8 and Attainment 8 Box Plots](images/obj1_progress8_attainment8_boxplot.png)
 
 - **English and Maths Progress 8 Scores Box Plots**:
+
+Both Maths and English have a negative median of -0.47 and -0.50 which is very concerning, given this is a national pattern, showing progress made by students between keystage 2 and keystage 4. English has a wider interquartile range for disadvantaged students, suggesting more variability. In both subjects, there is a greater difference between the minimum values, then between the maximum values, suggesting the disadvatnaged students will significiantly underperform than over perform.
 
   ![English and Maths Scores Box Plots](images/obj1_progress8_attainment8_boxplot.png)
 
@@ -318,14 +332,17 @@ Outlier schools for Progress 8 were identified and categorized:
 
 **Key Findings**:
 
-- A high correlation (0.85) exists between Progress 8 scores of disadvantaged pupils and overall Progress 8 scores.
-- Funding shows a negative correlation with Progress 8 scores for disadvantaged pupils, which requires further exploration.
-- A slight positive correlation with the percentage of disadvantaged pupils suggests that disadvantaged pupils may do better where there are more such pupils.
-- The IMD shows a negative correlation, indicating that increased deprivation is associated with decreased Progress 8 scores for disadvantaged pupils.
+- Overall schools which are outliers in both categories will do significantly better for disadvantaged pupils.
+- There is also a higher correlation (0.85) between progress 8 disadvantaged pupils and progress 8 in general, suggesting success breeds success.
+- Unexpectedly, funding (FSM(-0.45), total (-0.48) and pupil premium (-0.45)) all have negative correlation with progress 8 disadvantaged. This would need to be explored further as the range of the funding may be very small, and not being a good measure of proportionality.
+- Small postitive correlation of progress 8 disadvantaged with percentage of disadvantage pupils (0.19) suggest disadvantaged pupils may do better where there are more such pupils.
+- Index of multiple deprivation - has a negative correlation, suggesting lower values of the index ie. deprivation decreased, progress9 disadvantaged pupils will decline slightly, suggesting disadvantaged pupils' performance is expected to decrease when there is more deprivation.
 
 **Visualizations**:
 
 - **Heatmap of Outlier Schools**:
+
+Heatmap provides insights into outlier schools in areas such as progress 8 score, funding, deprivation index etc.
 
   ![Heatmap of Outlier Schools](images/obj2_heatmaposchools.png)
 
@@ -337,6 +354,8 @@ Outlier schools for Progress 8 were identified and categorized:
   | None                   | 6.0    | 3.0      | 8.0      | 5.0  | 1.0 | 10.0 | 9.0   |
   | Only Disadvantaged     | 4.5    | 3.0      | 7.0      | 4.0  | 1.0 | 9.0  | 8.0   |
   | Only Non-Disadvantaged | 3.0    | 2.0      | 4.3      | 2.3  | 1.0 | 8.0  | 7.0   |
+
+  Outlier schools only in progres 8 for only non-disadvantaged students, stand out as having a significanlty lower median of deprivation index, suggesting non-disadvantaged students tend to come from more deprived areas in such schools. This could be due to more focused support given they would stand out and be top of their school.
 
   ![IMD Decile by Outlier Category](images/Obj2_Deprivation_by_Outlier_Category.png)
 
@@ -351,6 +370,8 @@ Outlier schools for Progress 8 were identified and categorized:
   | Only Disadvantaged     | 0.955  | 0.8500   | 1.070    | 0.220 | 0.25   | 1.38  | 1.13  |
   | Only Non-Disadvantaged | 1.085  | 0.9375   | 1.125    | 0.188 | 0.61   | 1.49  | 0.88  |
 
+  Non positive outlier schools are are expected nearing 0; the minor difference may be due to negative outlier schools being included in that group. Schools which are outliers in both categories are much better performing with highest median and maximum score.
+
   ![Progress 8 by Outlier Category](images/Obj2_Progress8_Outlier_Category.png)
 
 - **Summary Statistics for Progress 8 Disadvantaged 2022 by Outlier Category**:
@@ -361,6 +382,8 @@ Outlier schools for Progress 8 were identified and categorized:
   | None                   | -0.50  | -0.87    | -0.14    | 0.73 | -2.43  | 0.99  | 3.42  |
   | Only Disadvantaged     | 1.09   | 1.07     | 1.13     | 0.06 | 1.01   | 1.21  | 0.20  |
   | Only Non-Disadvantaged | 0.60   | 0.51     | 0.78     | 0.27 | 0.22   | 0.99  | 0.77  |
+
+  Similar to before, disadvantaged pupils do better in schools which are outliers in both categories. Only disadvataged outlier schools have a very small IQR, suggesting an excellent level of consistency and low variability.
 
   ![Progress 8 Disadvantaged 2022 by Outlier Category](images/Obj2_Progress8DisadvantagedOutlierCategory.png)
 
@@ -383,29 +406,43 @@ Outlier schools for Progress 8 were identified and categorized:
 
 **Key Findings**:
 
-- High-performing MATs not only achieve high overall Progress 8 scores but also support disadvantaged students effectively.
-- Socioeconomic factors negatively impact student progress, but top MATs mitigate these effects.
-- A smaller Progress 8 gap between advantaged and disadvantaged pupils indicates better equity.
+- Strong positive correlation between the overall average Progress 8 score and the Progress 8 score for disadvantaged students shows, MATS that tend to perform well in progress 8 also tend to do so for disadvantaged students.
+
+- The negative correlation between the deprivation index and the Progress 8 score for disadvantaged students suggests socio-economic factors can significantly impact student progress.
+
+- Progress 8 score for disadvantaged students is negatively correlated with progress 8 gap; this would sugggest disadvantaged students will perform better in schools where there is a smaller progress 8 gap.
+
+- School count in each MAT, has a negative correlation with average progress 8 (-0.46) and progres 8 for disadavtanged (-0.29) suggesting MATs with more schools may struggle with higher average progress 8 scores. This is understandable, and can be investifated further, as often free schools are set up by the MAT from the ground up will perform better, where as under performing schools which the MAT may have taken on to improve will impacts the average progress 8 result.
 
 **Visualizations**:
 
 - **Top 10 MATs Based on Progress 8 Disadvantaged Students**:
 
+Some MATS, although top performing for progress 8 overall, may not be top performing for disadvantaged pupils. e.g. "tar Academies and Chiltern Learning Trust have significantly higher Progress 8 scores for disadvantaged pupil, showing their strategies of support are efficient. United Learning Trust and Russell Education suggest they are making less progress with disadvantaged students.
+
   ![Top 10 MATs](images/Obj3_Progress8disadvatanged.png)
 
 - **Correlation Matrix for Top 10 MATs**:
+
+Diagram show correlation for top 10 MATS with highest progress 8 values for disadvantaged pupils. This can be used to look at factors influencing progress 8 score for disadvantaged pupils and hence further analyse the performance of MATs.
 
   ![Correlation Matrix](images/Obj3_Correlation.png)
 
 - **Progress of Disadvantaged vs. Advantaged Pupils**:
 
+Progress 8 Gap - smaller gap between advantaged and disadvantaged poupils indicates better equity - Star Academies has the smallest gap of 0.264 followed by Chiltern Learning Trust of 0.408; While Education and Leadership Trust and Harris Federation have gaps of 0.733 and 0.623 respectively.
+
   ![Progress 8 Disadvantaged vs. Advantaged](images/Obj3_Progress8disadvsadvantaged.png)
 
 - **Deprivation Index vs. Progress 8**:
 
+Diagram shows average progress 8 scores of MATs again the multiple deprivation index. Star Academies has the highest average progress 8 score (0.64) yet the lowest deprivation index of 2.4 suggesting it is achieving very high despite have the most socio-economic challenges with deprivation index of 5.8.
+
   ![Deprivation Index vs. Progress 8](images/Obj3_DeprivationIndexP8.png)
 
 - **Deprivation Index vs. Progress 8 for Disadvantaged Pupils**:
+
+This diagram compares deprivation index with progress 8 performance of disadvantaged pupils. Star Academies stands out again with the highest progress 8 for disadvantaged pupils while also facing the most social economic deprivation. With a negative progress 8 and higher deprivation index, Russell Education and United Learning Trusts suggest disadvantaged pupils are making less than expected progress.
 
   ![Deprivation Index vs. Progress 8 Disadvantaged](images/Obj3_Progress8DisadvDeprivationIn.png)
 
