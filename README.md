@@ -1,6 +1,6 @@
 # Developing Education Equity: Analysing Positive Outlier Schools' Performance at Key Stage 4 for Disadvantaged Pupils in the UK - 2022/23
 
-## Project Overview
+## Project Overview.
 This project analyzes the performance of positive outlier schools in the UK (2022/23) regarding their disadvantaged pupils' educational outcomes at Key Stage 4. The analysis focuses on the correlation between school performance, measured through the Progress 8 and Attainment 8 scores, and the Index of Multiple Deprivation (IMD).
 
 ### Dataset
