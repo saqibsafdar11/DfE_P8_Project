@@ -25,8 +25,8 @@ This objective will conduct statistical analysis to identify top performing mult
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Project Plan
-1.1 Sources of the dataset
+## Project Plan
+### 1.1 Sources of the dataset
 a) Department for Education (DfE)
 The multiple datasets are sourced from the Department for Education's (DfE) website [1][2]. The academic year 2022-23 is the most recent data and published on 1st February 2024. Five datasets from the DfE website were used in this analysis. For each of the data sets a separate file containing the metadata is also provided. The data sets were merged based on the Unique Reference Number (URN) column for each school. Progress 8 scores are used to evaluate school performance; this is a measure of the value-added by each school based on the progress made across 8 qualifications of each pupil, using their key stage 2 results from year 6 as a baseline. The attainment 8 score (total points across 8 subjects) of each pupil is similar key stage 2 results, is compared to the national average attainment 8; the difference indicates a level of progress. A progress 8 score of 1, would indicate the student has done better by 1 grade than the national average etc. Subjects included in progress 8 include:
 
@@ -38,16 +38,10 @@ Open Group - remaining three from other academic, arts of vocational subjects
 
 The DfE has data of the progress 8 score and funding for disadvantaged and non-disadvantaged students, which makes its very convenient to analyse.
 
-[1] Department for Education. (n.d.). Explore education statistics: Data tables. Retrieved November 1, 2024, from https://explore-education-statistics.service.gov.uk/data-tables
-
-[2] Department for Education. (n.d.). Compare the performance of schools and colleges in England. Retrieved November 10, 2024, from https://www.gov.uk/school-performance-tables
-
 b) Index of Multiple Deprivation (IMD)
 In addition to the four data sets from the DfE, rather than use funding for schools or number of disadvantaged pupils, the deprivation index for each area in the UK was downloaded from the Ministry of Housing, Communities and Local Government (MHCLG) website [3] and merged with the school information data set using the school postcode. This allows for a more detailed analysis of the relationship between school performance and socioeconomic factors which may affect the performance of disadvantaged students.
 
-[3] Ministry of Housing, Communities & Local Government. (2019). English Indices of Deprivation 2019: Postcode Lookup. Retrieved from https://imd-by-postcode.opendatacommunities.org/imd/2019
-
-1.2 Accuracy and Reliability of Data
+### 1.2 Accuracy and Reliability of Data
 The data is sourced from the Department for Education's (DfE) website and the Ministry of Housing, Communities and Local Government website. The data is accurate and reliable as it is sourced from official government sources. For the DfE, provisional and final KS4 results are provided. The key differences are the final results are quality assured for:
 
 a) Completeness of data: results are verified
@@ -58,7 +52,7 @@ c) Usage: results are approved for use in official publications and are publicly
 
 The categorise each school's socioeconomic status, the Index of Multiple Deprivation Decile (IMD) is used, which ranks each postcode in England between 1 and 10. The IMD is a composite measure of deprivation based on several other domains of deprivation including income, employment, education and health. The data is from an official government source and is therefore accurate and reliable.
 
-1.3 Data quality, usability, and presentation
+### 1.3 Data quality, usability, and presentation
 Considerations:
 
 The IMD data is from 2019 and is the nearest year to the academic year 2022-23 of school performance data. When evaluating the relationship between school performance and socioeconomic factors, the socioeconomic factors may have changed in some cases since 2019. However, I will treat these are negligible changes as it the three-year period between 2019 and 2022 is relatively short.
@@ -68,7 +62,7 @@ Project Aim and Objectives
 Context
 I have been working in education for two decades now. More recently, I have worked in MATs that are high performing and data-driven. The efficiency of a school/MAT in using its funds, together with the impact of its pedagogoical framework can be seen unsing progress 8 scores. It has been shown that by five years of age, only 57% of disadvantaged pupils achieve a good level of development compared to 74% from better off households[4]. The gap continues throughout education; in 2022 -2023, 29% of free-school mean (FSM) pupils went to university which 49.8% of non FSM pupils progressed to university. [5].
 
-Motivation
+## Motivation
 Several motivations underpin this analysis:
 
 In a recent letter from the secretary of state for education, five priuorities were set out for higher education proviers, to top of which is : "Play a stronger role in expanding access and improving outcomes for disadvantaged students. The gap in outcomes from higher education between disadvantaged students and others is unacceptably large and is widening, with participation from disadvantaged students in decline for the first time in two decades." [6]
@@ -83,13 +77,7 @@ Socioeconomic factors: The relationship between school performance and socioecon
 
 Impact of MAT: Group level management, collaboration and performance, particularly on outlier schools, can be explored to determine if their is a correlation between school performance and the type of MAT they belong to.
 
-[4] Institute for Fiscal Studies. (2024, May). The past and future of UK health spending. Retrieved from https://www.ifs.org.uk/publications/health-spending-report
-
-[5] Busby, E. (2024, October 24). Gap between private and state school pupils going to top universities widens. The Independent. Retrieved from https://www.independent.co.uk/news/uk/gap-england-department-for-education-government-data-b2634966.html
-
-[6] [Phillipson, B. (2024, November 4). Letter from the Secretary of State for Education. Department for Education.](Letter from the Education Secretary 4.11.24 (002).pdf)
-
-2.2 Specific Objective(s)
+## 2.2 Specific Objective(s)
 1. Evaluate National Disparities in Educational Performance Between Advantaged and Disadvantaged Pupils
 
 Using comprehensive datasets from the Department for Education (DfE) and the Ministry of Housing, Communities, and Local Government (MHCLG), conduct a detailed national-level analysis of the performance gap in key metrics, including Progress 8, Attainment 8, and English and Mathematics scores. This objective will involve merging, cleaning and validating data, before statistical analysis is conducted to determine the level of gap between disadvantaged and advantaged pupils
@@ -257,21 +245,23 @@ Plot boxplots, histograms, heatmaps and scatter plots to visualise the data
 
 Write code to generate summary statistics of the boxplots
 
-Project Outcome
-Overview of Results
-Objective 1: Evaluate National Disparities in Educational Performance
+## Project Outcome
+
+### Overview of Results
+
+#### Objective 1: Evaluate National Disparities in Educational Performance
 
 There significant gaps between non-disadvantaged and disadvantaged pupils including attainment 8, progress 8, Maths, English and strong passes in both. Disadvantaged pupils lag behind by approximately 1.45 GCSE grades per subject and have an attainment 8 gap of 11.6 points. Their Progress 8 scores are 0.6 grades lower across subjects than their peers, suggesting significant performance gaps.
 
-Objective 2: Identify and Analyse Outlier Schools in Positive Progress 8 of Disadvantaged Pupils
+#### Objective 2: Identify and Analyse Outlier Schools in Positive Progress 8 of Disadvantaged Pupils
 
 Schools excelling in progress 8 for disadvantaged students, tend to support all students very well and have a strong positive correlation (0.85) between overall and disadvantaged pupils. Funding has a negative correlation with Progress 8 scores for disadvantaged pupils, and could be investigated further.
 
-Objective 3: Identify and Evaluate Top Performing Multi-Academy Trusts (MATs)
+#### Objective 3: Identify and Evaluate Top Performing Multi-Academy Trusts (MATs)
 
 High performing MAT have shown a strong positive correlation (0.51) between progress 8 scores for disadvantaged students and overall scores. Although socio-economic factors negatively correlate (-0.37) with progress, for high performing MATs this hasn’t been seen to be a barrier; Star Academies for example is one of the highest performing MATs in the country, yet faces the highest deprivation average of all MATs, suggesting a robust pedagogical strategy and governance to run its schools. Such high performing MATs are good at closing the gap (smallest is 0.264 progress 8) between disadvantaged and advantaged students, demonstrating efficient use of funding and better equity.
 
-Objective 1: Evaluate National Disparities in Educational Performance Between Advantaged and Disadvantaged Pupils
+### Objective 1: Evaluate National Disparities in Educational Performance Between Advantaged and Disadvantaged Pupils
 Explaination of Results:
 
 There are positive gaps in all categories measured between advantaged and disadvantaged pupils, confirming that nationally, isadvanteged pupils are behind in every academic measure.
@@ -353,9 +343,10 @@ Non-Disadvantaged	0.11	-0.20	0.42	0.62	-1.65	2.95	4.60
 English Scores Summary	Median	Q1 (25%)	Q3 (75%)	IQR	Min	Max	Range
 Disadvantaged	-0.50	-0.90	-0.08	0.82	-3.06	2.19	5.25
 Non-Disadvantaged	0.11	-0.20	0.44	0.64	-2.31	2.33	4.64
+
 Both Maths and English have a negative median of -0.47 and -0.50 which is very concerning, given this is a national pattern, showing progress made by students between keystage 2 and keystage 4. English has a wider interquartile range for disadvantaged students, suggesting more variability. In both subjects, there is a greater difference between the minimum values, then between the maximum values, suggesting the disadvatnaged students will significiantly underperform than over perform.
 
-maths_english_scores_boxplot.png
+![Pipeline.drawio.png](images/maths_english_scores_boxplot.png)
 
 Objective 2 Identify and Analyse Outlier Schools in Positive Progress 8 of Disadavantaged Pupils
 Explanation of Results
@@ -387,7 +378,7 @@ Only Disadvantaged	4.5	3.0	7.0	4.0	1.0	9.0	8.0
 Only Non-Disadvantaged	3.0	2.0	4.3	2.3	1.0	8.0	7.0
 Outlier schools only in progres 8 for only non-disadvantaged students, stand out as having a significanlty lower median of deprivation index, suggesting non-disadvantaged students tend to come from more deprived areas in such schools. This could be due to more focused support given they would stand out and be top of their school.
 
-Obj2_Deprivation_by_Outlier_Category.png
+![Pipeline.drawio.png](images/Obj2_Deprivation_by_Outlier_Category.png)
 
 Summary Statistics for 'Progress8' by 'Outlier_Category'
 
@@ -398,7 +389,7 @@ Only_Disadv	0.955	0.8500	1.070	0.220	0.25	1.38	1.13
 Only_NonDisadv	1.085	0.9375	1.125	0.188	0.61	1.49	0.88
 Non positive outlier schools are are expected nearing 0; the minor difference may be due to negative outlier schools being included in that group. Schools which are outliers in both categories are much better performing with highest median and maximum score.
 
-Obj2_Progress8 by Outlier Category.png
+![Pipeline.drawio.png](images/Obj2_Progress8 by Outlier Category.png)
 
 Summary Statistics for 'Progress8_Disadvantaged_2022' by 'Outlier_Category':
 
@@ -409,7 +400,7 @@ Only_Disadv	1.09	1.07	1.13	0.06	1.01	1.21	0.20
 Only_NonDisadv	0.60	0.51	0.78	0.27	0.22	0.99	0.77
 Similar to before, disadvantaged pupils do better in schools which are outliers in both categories. Only disadvataged outlier schools have a very small IQR, suggesting an excellent level of consistency and low variability.
 
-Obj2_Progress8 of Disadvantaged Pupils by Outlier Category.png
+![Pipeline.drawio.png](images/Obj2_Progress8 of Disadvantaged Pupils by Outlier Category.png)
 
 Objective 3 Identify and evaluate the top performing multi-academy trusts in supporting disadvantaged pupils
 Explanation of Results
@@ -439,7 +430,7 @@ Identify Top Performing MATs based on Progress 8 Disadvantaged Students
 
 Some MATS, although top performing for progress 8 overall, may not be top performing for disadvantaged pupils. e.g. "tar Academies and Chiltern Learning Trust have significantly higher Progress 8 scores for disadvantaged pupil, showing their strategies of support are efficient. United Learning Trust and Russell Education suggest they are making less progress with disadvantaged students.
 
-Obj3_Progress8 disadvatanged top 10 MATs.png
+![Pipeline.drawio.png](imagesObj3_Progress8 disadvatanged top 10 MATs.png)
 
 Correlation Matrix for Top 10 MATS
 
@@ -451,7 +442,7 @@ Progreess of Disadavantaged vs Advantaged Pupils
 
 Progress 8 Gap - smaller gap between advantaged and disadvantaged poupils indicates better equity - Star Academies has the smallest gap of 0.264 followed by Chiltern Learning Trust of 0.408; While Education and Leadership Trust and Harris Federation have gaps of 0.733 and 0.623 respectively.
 
-Obj3_Progress8 disadv vs advantaged in top 10 MATs.png
+![Pipeline.drawio.png](images/Obj3_Progress8 disadv vs advantaged in top 10 MATs.png)
 
 Deprivation Index vs Progress 8
 
@@ -504,9 +495,17 @@ Video Presentation
 Please submit a screen-capture video with your voiceover, providing a concise explanation of your project's design, key findings, successful aspects, and any challenges encountered. The duration of the video should be between 5 and 10 minutes in MP4 format.
 
 References
-Institute for Fiscal Studies. (2024, May). The past and future of UK health spending. https://www.ifs.org.uk/publications/health-spending-report IFS Report
+[1] Department for Education. (n.d.). Explore education statistics: Data tables. Retrieved November 1, 2024, from https://explore-education-statistics.service.gov.uk/data-tables
 
-Busby, E. (2024, October 24). Gap between private and state school pupils going to top universities widens. The Independent. https://www.independent.co.uk/news/uk/gap-england-department-for-education-government-data-b2634966.html
+[2] Department for Education. (n.d.). Compare the performance of schools and colleges in England. Retrieved November 10, 2024, from https://www.gov.uk/school-performance-tables
+
+[3] Ministry of Housing, Communities & Local Government. (2019). English Indices of Deprivation 2019: Postcode Lookup. Retrieved from https://imd-by-postcode.opendatacommunities.org/imd/2019
+
+[4] Institute for Fiscal Studies. (2024, May). The past and future of UK health spending. Retrieved from https://www.ifs.org.uk/publications/health-spending-report
+
+[5] Busby, E. (2024, October 24). Gap between private and state school pupils going to top universities widens. The Independent. Retrieved from https://www.independent.co.uk/news/uk/gap-england-department-for-education-government-data-b2634966.html
+
+[6] [Phillipson, B. (2024, November 4). Letter from the Secretary of State for Education. Department for Education.](Letter from the Education Secretary 4.11.24 (002).pdf
 
 [Phillipson, B. (2024, November 4). Letter from the Secretary of State for Education. Department for Education.](Letter from the Education Secretary 4.11.24 (002).pdf)
 
