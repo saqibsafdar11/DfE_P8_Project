@@ -300,7 +300,7 @@ There are significant gaps in all measured categories between advantaged and dis
 
 - **Progress 8 and Attainment 8 Box Plots**:
 
-  ![Progress 8 and Attainment 8 Box Plots](images/progress8_attainment8_boxplot.png) 
+  ![Progress 8 and Attainment 8 Box Plots](images/obj1_progress8_attainment8_boxplot.png)
 
 - **English and Maths Progress 8 Scores Box Plots**:
 
@@ -327,7 +327,7 @@ Outlier schools for Progress 8 were identified and categorized:
 
 - **Heatmap of Outlier Schools**:
 
-  ![Heatmap of Outlier Schools](images/obj2_heatmap_of_outlier_schools.png)
+  ![Heatmap of Outlier Schools](images\obj2_heatmaposchools.png)
 
 - **Summary Statistics for IMD Decile by Outlier Category**:
 
@@ -340,6 +340,8 @@ Outlier schools for Progress 8 were identified and categorized:
 
   ![IMD Decile by Outlier Category](images/obj2_deprivation_by_outlier_category.png)
 
+
+
 - **Summary Statistics for Progress 8 by Outlier Category**:
 
   | Outlier Category       | Median | Q1 (25%) | Q3 (75%) | IQR   | Min    | Max   | Range |
@@ -349,7 +351,7 @@ Outlier schools for Progress 8 were identified and categorized:
   | Only Disadvantaged     | 0.955  | 0.8500   | 1.070    | 0.220 | 0.25   | 1.38  | 1.13  |
   | Only Non-Disadvantaged | 1.085  | 0.9375   | 1.125    | 0.188 | 0.61   | 1.49  | 0.88  |
 
-  ![Progress 8 by Outlier Category](images/obj2_progress8_by_outlier_category.png)
+  ![Progress 8 by Outlier Category](images\Obj2_Progress8_Outlier_Category.png)
 
 - **Summary Statistics for Progress 8 Disadvantaged 2022 by Outlier Category**:
 
@@ -360,7 +362,7 @@ Outlier schools for Progress 8 were identified and categorized:
   | Only Disadvantaged     | 1.09   | 1.07     | 1.13     | 0.06 | 1.01   | 1.21  | 0.20  |
   | Only Non-Disadvantaged | 0.60   | 0.51     | 0.78     | 0.27 | 0.22   | 0.99  | 0.77  |
 
-  ![Progress 8 Disadvantaged 2022 by Outlier Category](images/obj2_progress8_of_disadvantaged_pupils_by_outlier_category.png)
+  ![Progress 8 Disadvantaged 2022 by Outlier Category](images\Obj2_Progress8DisadvantagedOutlierCategory.png)
 
 #### Objective 3: Identify and Evaluate Top-Performing MATs
 
@@ -389,25 +391,25 @@ Outlier schools for Progress 8 were identified and categorized:
 
 - **Top 10 MATs Based on Progress 8 Disadvantaged Students**:
 
-  ![Top 10 MATs](images/Obj3_Progress8_disadvantaged_top_10_MATs.png)
+  ![Top 10 MATs](images\Obj3_Progress8disadvatanged.png)
 
 - **Correlation Matrix for Top 10 MATs**:
 
-  ![Correlation Matrix](images/Obj3_Correlation_Matrix_top_10_MATs.png)
+  ![Correlation Matrix](images\Obj3_Correlation.png)
 
 - **Progress of Disadvantaged vs. Advantaged Pupils**:
 
-  ![Progress 8 Disadvantaged vs. Advantaged](images/Obj3_Progress8_disadv_vs_advantaged_top_10_MATs.png)
+  ![Progress 8 Disadvantaged vs. Advantaged](images\Obj3_Progress8disadvsadvantaged.png)
 
 - **Deprivation Index vs. Progress 8**:
 
-  ![Deprivation Index vs. Progress 8](images/Obj3_Deprivation_Index_vs_P8_top_10_MATs.png)
+  ![Deprivation Index vs. Progress 8](images\Obj3_DeprivationIndexP8.png)
 
 - **Deprivation Index vs. Progress 8 for Disadvantaged Pupils**:
 
-  ![Deprivation Index vs. Progress 8 Disadvantaged](images/Obj3_Progress8_disadv_vs_deprivation_index_top_10_MATs.png)
+  ![Deprivation Index vs. Progress 8 Disadvantaged](images\Obj3_Progress8DisadvDeprivationIn.png)
 
-  ![Progress 8 Disadvantaged vs Deprivation Index for Top 10 MATs](images/Obj3_Progress8_disadv_vs_deprivation_index_top_10_MATs.png)
+
 
 ## Conclusion and Presentation
 
