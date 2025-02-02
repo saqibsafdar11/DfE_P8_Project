@@ -471,6 +471,14 @@ This diagram compares deprivation index with progress 8 performance of disadvant
 - **Machine Learning Models**: Apply machine learning techniques, such as clustering and unsupervised learning, to uncover hidden patterns.
 - **Geospatial Analysis**: Conduct geospatial analysis to evaluate schools based on proximity and geographic distribution.
 - **Text Analysis**: Perform text analysis of Ofsted reports to correlate qualitative assessments with performance metrics.
+- 
+## **Repository Structure**
+```
+📂 dfE_P8_project
+│── 📂 data  # Raw and transformed datasets (CSV/Parquet)
+│── 📂 images  # images used or generated
+│── 📂 project files  # files relating to details of the project
+│── README.md  # Detailed technical documentation
 
 ## References
 
